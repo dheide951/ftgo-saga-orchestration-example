@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/fgto-order-service" />
+            <option value="$PROJECT_DIR$/ftgo-accounting-service" />
+            <option value="$PROJECT_DIR$/ftgo-consumer-service" />
+            <option value="$PROJECT_DIR$/ftgo-kitchen-service" />
+            <option value="$PROJECT_DIR$/ftgo-order-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
