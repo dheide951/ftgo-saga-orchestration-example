@@ -5,32 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edc3ebce-c1c3-4acf-a58e-f91e54713ba3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftgo-consumer-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftgo-consumer-service/src/main/java/com/gmail/dheide951/ftgoconsumerservice/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftgo-consumer-service/src/main/java/com/gmail/dheide951/ftgoconsumerservice/controllers/ConsumerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftgo-consumer-service/src/main/java/com/gmail/dheide951/ftgoconsumerservice/models/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftgo-consumer-service/src/main/java/com/gmail/dheide951/ftgoconsumerservice/repositories/ConsumerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftgo-consumer-service/src/main/java/com/gmail/dheide951/ftgoconsumerservice/services/ConsumerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftgo-consumer-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftgo-order-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftgo-order-service/src/main/java/com/gmail/dheide951/ftgoorderservice/controllers/OrdersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftgo-order-service/src/main/java/com/gmail/dheide951/ftgoorderservice/models/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftgo-order-service/src/main/java/com/gmail/dheide951/ftgoorderservice/repositories/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftgo-order-service/src/main/java/com/gmail/dheide951/ftgoorderservice/services/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftgo-order-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ftgo-accounting-service/src/main/java/com/gmail/dheide951/ftgoaccountingservice/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ftgo-accounting-service/src/main/java/com/gmail/dheide951/ftgoaccountingservice/domain/PaymentDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ftgo-accounting-service/src/main/java/com/gmail/dheide951/ftgoaccountingservice/services/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ftgo-kitchen-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ftgo-kitchen-service/src/main/java/com/gmail/dheide951/ftgokitchenservice/models/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ftgo-kitchen-service/src/main/java/com/gmail/dheide951/ftgokitchenservice/repositories/TicketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ftgo-kitchen-service/src/main/java/com/gmail/dheide951/ftgokitchenservice/services/KitchenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftgo-consumer-service/src/main/java/com/gmail/dheide951/ftgoconsumerservice/services/ConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftgo-consumer-service/src/main/java/com/gmail/dheide951/ftgoconsumerservice/services/ConsumerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftgo-kitchen-service/src/main/java/com/gmail/dheide951/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftgo-kitchen-service/src/main/java/com/gmail/dheide951/ftgokitchenservice/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftgo-order-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ftgo-order-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftgo-order-service/src/main/java/com/gmail/dheide951/ftgoorderservice/controllers/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftgo-order-service/src/main/java/com/gmail/dheide951/ftgoorderservice/controllers/OrdersController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +52,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -91,9 +77,9 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "openjdk-17",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RecentsManager">
